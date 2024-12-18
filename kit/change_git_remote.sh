@@ -5,12 +5,15 @@ old_url="git@mdgit.300624.cn"
 # 新地址
 new_url="git@git.modao.ink"
 
+old_http_url="https://mdgit.300624.cn/"
+new_http_url="https://git.modao.ink/"
+
 changed_count=0
 base_dir="MockingBot"
 for file in ${base_dir}/**/.git/config; do 
   # 使用old_url替换new_url
   sed -i '' "/\[remote \"origin\"\]/,/^\[.*\]/ s|url = ${old_url}|url = ${new_url}|g" "$file"
-  sed -i '' "/\[remote \"origin\"\]/,/^\[.*\]/ s|url = ${old_url}|url = ${new_url}|g" "$file"
+  sed -i '' "/\[remote \"origin\"\]/,/^\[.*\]/ s|url = ${old_http_url}|url = ${new_http_url}|g" "$file"
   echo "修改 $file 成功"
   changed_count=$((changed_count + 1))
 done
