@@ -43,7 +43,7 @@ function changeUserNpmrc(configType) {
 }
 
 // 命令行参数处理
-const args = process.argv.slice(2); // 从第二个参数开始
+const args = process.argv; // 从第二个参数开始
 const command = args[0];
 if(command !== 'ly-cn') {
   console.error(`* 请使用 ly-cn <configType> 来更改 npmrc 配置`);
