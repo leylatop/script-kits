@@ -4,8 +4,8 @@
   "description": "更改 npmrc 配置的工具",
   "main": "script.js",
   "bin": {
-    "change-npmrc": "./script.js",
-    "change-npmrc-default": "./default.js"
+    "ly-cn": "./script.js",
+    "ly-cnd": "./default.js"
   },
   "keywords": ["npmrc", "config"],
   "author": "Leyla",
