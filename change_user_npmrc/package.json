@@ -1,0 +1,17 @@
+{
+  "name": "change_user_npmrc",
+  "version": "0.0.1",
+  "description": "更改 npmrc 配置的工具",
+  "main": "script.js",
+  "bin": {
+    "change-npmrc": "./script.js",
+    "change-npmrc-default": "./default.js"
+  },
+  "keywords": ["npmrc", "config"],
+  "author": "Leyla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leylatop/shell-kit.git"
+  }
+}
