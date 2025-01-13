@@ -6,4 +6,4 @@
 
 
 ## node 脚本
-- ...
+- [change_user_npmrc](./change_user_npmrc/README.md) 切换npmrc文件，已发布到[npm](https://www.npmjs.com/package/change_user_npmrc)
