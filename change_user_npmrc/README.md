@@ -1,10 +1,10 @@
-# change-user-npmrc
+# change_user_npmrc
 
 一个用于更改 npmrc 配置的命令行工具
 
 ## 安装
 ```shell
-npm install -g change-user-npmrc
+npm install -g change_user_npmrc
 ```
 如遇安装 404 问题，需修改 `.npmrc` 文件的镜像源
 
