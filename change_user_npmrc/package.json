@@ -1,5 +1,5 @@
 {
-  "name": "change_user_npmrc",
+  "name": "change-user-npmrc",
   "version": "0.0.3",
   "description": "更改 npmrc 配置的工具",
   "main": "script.js",
